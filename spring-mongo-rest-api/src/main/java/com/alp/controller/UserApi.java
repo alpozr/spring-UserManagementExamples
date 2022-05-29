@@ -1,7 +1,7 @@
 package com.alp.controller;
 
 import com.alp.repository.UserRepository;
-import model.User;
+import com.alp.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -21,7 +21,7 @@ public class UserApi {
          User user = new User();
          user.setFirstName("Alp");
          user.setLastName("OZER");
-         
+
          userRepository.save(user);
      }
 
