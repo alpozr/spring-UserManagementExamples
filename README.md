@@ -1,5 +1,5 @@
 # spring-UserExample
-UserExample with using MongoDB
+UserExamples with using Docker
 
 You can use 3T Studio as interface to connect Docker's offical image MongoDB.
 
