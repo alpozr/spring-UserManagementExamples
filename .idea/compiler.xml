@@ -8,14 +8,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-elasticsearch" />
+        <module name="spring-boot-api-tutorial" />
         <module name="spring-mongo-rest-api" />
+        <module name="spring-postgresql-datajpaexamples" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-elasticsearch" target="13" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-api-tutorial" options="-parameters" />
       <module name="spring-elasticsearch" options="-parameters" />
       <module name="spring-mongo-rest-api" options="-parameters" />
+      <module name="spring-postgresql-datajpaexamples" options="-parameters" />
     </option>
   </component>
 </project>

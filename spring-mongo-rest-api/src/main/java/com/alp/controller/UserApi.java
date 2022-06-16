@@ -1,7 +1,7 @@
 package com.alp.controller;
 
 import com.alp.repository.UserRepository;
-import com.alp.model.User;
+import com.alp.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -10,6 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>spring-mongo-rest-api</module>
+        <module>spring-postgresql-datajpaexamples</module>
+        <module>spring-boot-api-tutorial</module>
     </modules>
 
     <properties>
